@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: darkblue;
+        }
+        .container{
+           
+            display: grid;
+            grid-template-columns:repeat(6,auto);
+            border: 2px solid;
+            gap: 10px;
+        }
+        .c1{
+            border: 2px solid;
+           background-color: blueviolet;
+           display: grid;
+           text-align: center;
+           color: aliceblue;
+           grid-column: 1/7;
+           padding: 10px;
+           margin: 10px;
+           border: 2px solid black;
+    
+           
+        }
+        .c2{
+           display: grid;
+           background-image: linear-gradient(violet,skyblue); 
+           text-align: center;
+           align-content: center;
+
+           color: aliceblue;
+           grid-row: 2/5;
+           grid-column: 1/4;
+           padding: 90px;
+           margin: 10px;
+           border: 2px solid black;
+        }
+        .c3{
+            display: grid;
+            grid-column: 4/7;
+           
+            background-image: linear-gradient(violet,skyblue); 
+           text-align: center;
+           color: aliceblue;
+           padding: 40px;
+           margin: 10px;
+           border: 2px solid black;
+            }
+            .c4{
+                display: grid;
+                background-image: linear-gradient(violet,skyblue); 
+           text-align: center;
+           color: aliceblue;
+           grid-column: 4/5;
+           padding: 40px;
+           border: 2px solid black;
+
+            }
+            .c5{
+                display: grid;
+                background-image: linear-gradient(violet,skyblue); 
+           text-align: center;
+           color: aliceblue;
+           text-align: center;
+           align-content: center;
+           grid-column: 5/7;
+           margin: 2px;
+           border: 2px solid black;
+
+           
+
+            }
+            .c6{
+                display: grid;
+                background-color: blueviolet;
+           text-align: center;
+           color: aliceblue;
+           grid-column:1/7 ;
+           padding: 10px;
+           margin: 10px;
+           border: 2px solid black;
+
+            }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+        <div class="c1 ">header</div>
+        <div class="c2">sidebar</div>
+        <div class=" c3">content-1</div>
+        <div class="c4">content-2</div>
+        <div class="c5">content-3</div>
+        <div class="c6">footer</div>
+    </div>
+</div>
+</body>
+</html>
